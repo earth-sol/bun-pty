@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/bun-pty.svg)](https://www.npmjs.com/package/bun-pty)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Bun Compatible](https://img.shields.io/badge/Bun-%E2%89%A51.0.0-black)](https://bun.sh)
+[![Bun Compatible](https://img.shields.io/badge/Bun-%E2%89%A51.3.1-black)](https://bun.sh)
 
 A cross-platform pseudo-terminal (PTY) implementation for Bun, powered by Rust's portable-pty library and Bun's FFI capabilities.
 
@@ -23,8 +23,8 @@ bun add bun-pty
 
 ## ⚙️ Requirements
 
-- **Bun** 1.0.0 or higher
-- **Rust** is only needed if you're building from source (the npm package includes pre-built binaries)
+- **Bun** 1.3.1 or higher
+- **Rust** 1.91.0 or higher (only needed if you're building from source - the npm package includes pre-built binaries)
 
 ## 📋 Platform Support
 
